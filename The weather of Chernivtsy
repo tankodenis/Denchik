@@ -1,1 +1,20 @@
 20.02.2023 The weather of Chernivtsy, Sun, +0 +10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лендінг з реєстрацією на дзвінок</title>
+</head>
+<body>
+    <h1>Запишіться на дзвінок</h1>
+    <form action="submit-form.php" method="post">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <input type="submit" value="Записатися">
+    </form>
+</body>
+</html>
